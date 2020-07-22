@@ -474,10 +474,23 @@ input:-webkit-autofill:focus {
 
 .video-photo > img {
     width: 100%;
+    position: relative;
+}
+.video-photo::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, gold 0%, red 100%);
+    z-index: 1;
+    opacity: .4;
 }
 
 .video-area a.video-button {
     position: absolute;
+    z-index: 2;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -536,7 +549,7 @@ input:-webkit-autofill:focus {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
     overflow: hidden;
     z-index: 1;
-    color: #5e88fc;
+    color: #ff9a00;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -869,7 +882,7 @@ input:-webkit-autofill:focus {
     outline: none;
     padding: 20px 30px 20px 60px;
     color: #434345;
-    border-left: 5px solid #5e88fc;
+    border-left: 5px solid #ff9a00;
     cursor: pointer;
     position: relative;
 }
@@ -903,7 +916,7 @@ input:-webkit-autofill:focus {
 .toggole-boxs div {
     background-color: #ffffff;
     padding: 0 30px 20px 60px;
-    border-left: 5px solid #5e88fc;
+    border-left: 5px solid #ff9a00;
 }
 
 /*-- 17. Subscribe-Form --*/
@@ -953,7 +966,7 @@ input:-webkit-autofill:focus {
     color: #ffffff;
     font-size: 20px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#482cbf+0,6ac6f0+100 */
-    background: rgb(72, 44, 191);
+    background: linear-gradient(45deg, gold 0%, orange 100%);
     /* Old browsers */
     /* FF3.6-15 */
     background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
@@ -986,7 +999,7 @@ input:-webkit-autofill:focus {
 }
 
 .footer-box:hover .box-icon {
-    color: #5e88fc;
+    color: #ff9a00;
 }
 
 .footer-box:hover .box-icon:before {
@@ -1016,7 +1029,7 @@ input:-webkit-autofill:focus {
 }
 
 .footer-bottom .footer-menu ul li a:hover {
-    color: #5e88fc;
+    color: #ffce00;
 }
 
 /*-- 19. ScrollUp-Button --*/
