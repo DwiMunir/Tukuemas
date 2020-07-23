@@ -428,7 +428,7 @@ input:-webkit-autofill:focus {
 
 .home-area {
     width: 100%;
-    background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;
+    background: url('images/header-bg.webp') no-repeat scroll center bottom / cover;
     padding-top: 26vh;
     color: #ffffff;
     margin-bottom: 100px;
@@ -443,7 +443,7 @@ input:-webkit-autofill:focus {
 /*-- 8. Progress-Area --*/
 
 .progress-area {
-    background-image: url('images/progress-bg.jpg');
+    background-image: url('images/progress-bg.webp');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: auto 100%;
@@ -733,7 +733,7 @@ input:-webkit-autofill:focus {
 /*-- 14. Download-Area --*/
 
 .download-area {
-    background-image: url('images/download-bg.png');
+    background-image: url('images/download-bg.webp');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
